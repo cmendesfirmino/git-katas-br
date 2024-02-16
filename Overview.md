@@ -1,46 +1,47 @@
-# Overview of the Git Kata Exercises
+# Visão geral dos Exercícios do Git Kata
 
 ## Setup
 
-1. [configure-git](configure-git/README.md) - If git is not configured, some basic configuration steps
+1. [configure-git](configure-git/README.md) - Se o git não estiver configurado, algumas passos básico para configurar
 
-## Basic Git Katas in Suggested Order
+## Katas Básicos do Git na Ordem Sugerida
 
-1. [basic-commits](basic-commits/README.md) - Very basic creation of commits.
-2. [basic-staging](basic-staging/README.md) - Interacting with the stage (index).
-3. [basic-branching](basic-branching/README.md) - The first stride into branching.
-4. [ff-merge](ff-merge/README.md) - A tour around the most trivial of merges.
-5. [3-way-merge](3-way-merge/README.md) - A basic merge, involving multiple diverged branches.
-6. [merge-conflict](merge-conflict/README.md) - A basic merge between diverging branches with incompatible (but simple) changesets.
-7. [merge-mergesort](merge-mergesort/README.md) - A merge conflict with actual code.
-8. [rebase-branch](rebase-branch/README.md) - Using rebase as an alternative to merging.
-9. [basic-revert](basic-revert/README.md) - Use revert to revert a change
-10. [reset](reset/README.md) - Reset is a powerful and slightly dangerous command if you do not know what you are doing. Go through the three modes of resetting here.
-11. [basic-cleaning](basic-cleaning/README.md) - Cleaning the workspace.
-12. [amend](amend/README.md) - Amending previous commits.
-13. [reorder-the-history](reorder-the-history/README.md) - We might have created our commits in a suboptimal order, practice to fix that scenario here.
-14. [squashing](squashing/README.md) - A lot of small commits is good when you are working locally, but for sharing your code, it might be more beneficial to deliver your code changes in large sets. Go here to experiment with that. Write a good commit
-15. [advanced-rebase-interactive](advanced-rebase-interactive/README.md) - Practice using the interactive rebase commands.
-16. [basic-stashing](basic-stashing/README.md) - The first stride into stashing.
-17. [ignore](ignore/README.md) - The basics of using the `.gitignore` file. And using `git rm`.
-18. [submodules](submodules/README.md) - Submodules are loathed by many. Run through this exercise to see what the ruckus is all about.
-19. [git-tag](git-tag//README.md) - Tags are convenient for keeping track of commits that bump a version number. In this exercise, you will list, add and delete tags.
+1. [basic-commits](basic-commits/README.md) - Primeiros passos com commits
+2. [basic-staging](basic-staging/README.md) - Interagindo com o stage (index).
+3. [basic-branching](basic-branching/README.md) - O primeiro passo para a ramificação (branch).
+4. [ff-merge](ff-merge/README.md) -  Um passeio pelo merge mais trivial.
+5. [3-way-merge](3-way-merge/README.md) - Um merge básico, envolvendo múltiplas branches divergentes.
+6. [merge-conflict](merge-conflict/README.md) - Um merge básico entre branches que se divergem com conjuntos de alterações incompatíveis (mas simples).
+7. [merge-mergesort](merge-mergesort/README.md) - Um conflito de merge com código
+8. [rebase-branch](rebase-branch/README.md) - Utilizando rebase como alternativa ao merge.
+9. [basic-revert](basic-revert/README.md) - Utilize o revert para reverter uma alteração.
+10. [reset](reset/README.md) - Reset é um comando poderoso e um pouco perigoso se você não souber o que está fazendo. Passe pelos três modos de reset aqui.
+11. [basic-cleaning](basic-cleaning/README.md) - Limpeza do espaço de trabalho.
+12. [amend](amend/README.md) - Modificando commits anteriores.
+13. [reorder-the-history](reorder-the-history/README.md) - Talvez tenhamos criado nossos commits em uma ordem inadequada, pratique corrigir esse cenário aqui.
+14. [squashing](squashing/README.md) - Muitos commits pequenos são bons quando você está trabalhando localmente, mas para compartilhar seu código, pode ser mais benéfico entregar suas alterações de código em conjuntos maiores. Vá aqui para experimentar isso. Escreva um bom commit.
+15. [advanced-rebase-interactive](advanced-rebase-interactive/README.md) - Pratique o uso dos comandos interativos de rebase.
+16. [basic-stashing](basic-stashing/README.md) - O primeiro passo para fazer stash.
+17. [ignore](ignore/README.md) - Os fundamentos do uso do arquivo .gitignore. E usando git rm.
+18. [submodules](submodules/README.md) - Submódulos são odiados por muitos. Execute este exercício para entender o que está acontecendo.
+19. [git-tag](git-tag//README.md) - Tags são convenientes para manter o controle de commits que aumentam um número de versão. Neste exercício, você irá listar, adicionar e excluir tags.
 
-## Katas that solve standard problems
+## Katas que resolvem problemas padrão
 
-1. [commit-on-wrong-branch](commit-on-wrong-branch/README.md) - If we accidentally put unpushed commits on the wrong branch, how do we effectively _move_ them to another branch before our work on that branch.
-2. [commit-on-wrong-branch-2](commit-on-wrong-branch-2/README.md) - Another exercise on what to do if you have accidentally committed on the wrong branch.
-3. [reverted-merge](reverted-merge/README.md) - We revert a merge, but, after fixes are added to the merged branch, we want the changes from merge and the new fixes.
-4. [save-my-commit](save-my-commit/README.md) - Should you accidentally or on purpose delete a commit, go here to try and save it. You will use the reflog.
-5. [detached-head](detached-head/README.md) - git complains that you are in a "You are in 'detached HEAD' state". What do you do?
+1. [commit-on-wrong-branch](commit-on-wrong-branch/README.md) - Se acidentalmente colocarmos commits não enviados no branch errado, como podemos efetivamente movê-los para outro branch antes do nosso trabalho nesse branch.
+2. [commit-on-wrong-branch-2](commit-on-wrong-branch-2/README.md) - Outro exercício sobre o que fazer se você tiver cometido acidentalmente no branch errado.
+3. [reverted-merge](reverted-merge/README.md) -  Revertemos um merge, mas, após correções serem adicionadas ao branch mesclado, queremos as alterações do merge e as novas correções.
+4. [save-my-commit](save-my-commit/README.md) - Se você deletar acidentalmente ou intencionalmente um commit, vá aqui para tentar salvá-lo. Você usará o reflog.
+5. [detached-head](detached-head/README.md) - O Git reclama que você está em um "You are in 'detached HEAD' state". O que fazer?
 
-## Katas On Advanced features
 
-1. [git-attributes](git-attributes/README.md) - .gitattributes file allows you to specify how git handles files, such as line endings in text files or how to diff a binary file.
-2. [Bad-commit](bad-commit/README.md) - Using `git bisect` to find a bad commit.
-3. [bisect](bisect/README.md) - Another kata using `git bisect`.
-4. [pre-push](pre-push/README.md) - A quick exercise in using Git hooks.
-5. [Investigation](investigation/README.md) - Discover what is going on in a Git repo, figure out what it looks like under the hood.
-6. [Objects](objects/README.md) - A small exercise into Git internals.
-7. [merge-driver](merge-driver/README.md) - Defining a custom merge driver.
-8. [rebase-exec](rebase-exec/README.md) - Run tests on every commit using `git rebase --exec`
+## Katas Sobre Recursos Avançados
+
+1. [git-attributes](git-attributes/README.md) - O arquivo .gitattributes permite que você especifique como o Git lida com arquivos, como terminações de linha em arquivos de texto ou como diferenciar um arquivo binário.
+2. [Bad-commit](bad-commit/README.md) - Usando git bisect para encontrar um commit ruim.
+3. [bisect](bisect/README.md) - Outro kata usando git bisect.
+4. [pre-push](pre-push/README.md) - Um exercício rápido sobre o uso dos hooks do Git.
+5. [Investigation](investigation/README.md) - Descubra o que está acontecendo em um repositório Git, entenda como é sob o capô.
+6. [Objects](objects/README.md) - Um pequeno exercício sobre os internos do Git.
+7. [merge-driver](merge-driver/README.md) - Definindo um driver de merge personalizado.
+8. [rebase-exec](rebase-exec/README.md) - Execute testes em cada commit usando git rebase --exec
