@@ -1,42 +1,45 @@
----
-maintainer: JKrag
----
 # Git Katas
 
-## Quick Start
+## Início Rápido
 
-### In the Cloud
+### Rode na Nuvem
 
-[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://console.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/praqma-training/git-katas.git)
+[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://console.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/cmendesfirmino/git-katas-br.git)
 
-### On Your Local Machine
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/cmendesfirmino/git-katas-br.git)
 
-![Quick Start](/images/quickstart.gif)
+[![Open in Gitpod](https://github.com/codespaces/badge.svg)](https://github.com/cmendesfirmino/git-katas-br/codespaces)
 
-- Clone this repository
-- Go into the folder you want to solve an exercise in
-- Run the `setup.sh` script
-- Consult the README.md in that folder to get a description of the exercise
 
-## Purpose of Git Katas
+### Rode Localmente
 
-This repository is a collection of Git exercises.
-The concept is stolen without shame from [Schauderhaft.de](http://blog.schauderhaft.de/gitkata/).
-Unfortunately, they have not maintained the system - and we need more good Git exercises.
+```bash
+git clone https://github.com/cmendesfirmino/git-katas-br.git
+cd git-katas-br/basic-commits
+. ./setup.sh
+```
+- Clone este repositório
+- Vá até o diretório do exercício que deseja resolver
+- Execute o script `setup.sh`
+- Há uma descrição do exercício no arquivo README.md
 
-The exercises are designed for use when we are teaching Git courses. You should be able to use them as self-contained exercises that will allow you to keep your Git skills sharp.
+## Propósito do Git Katas
 
-Exercises starting with _basic_ are entry-level - other exercises vary greatly in difficulty.
+Este repositório é uma coleção de exercícios de Git. Ele foi traduzido do repositório original [Git-Katas](https://github.com/eficode-academy/git-katas.git), que foi baseado no trabalho de  [Schauderhaft.de](http://blog.schauderhaft.de/gitkata/).
 
-To get an overview of the exercises in here look in [Overview.md](Overview.md).
+Traduzi esse repositório para utilizar nas aulas que ministro. Portanto, servem para quem deseja praticar conhecimentos de git. Toda contribuição é válida e bem vinda.
 
-Feel free to use these exercises, that's why they're public!
+Os diretórios que iniciam com basic- são os iniciais, importante para quem tem pouco ou nenhum conhecimento. Os demais variam os níveis de dificuldade.
 
-## Suggested Learning Path
+Para obter uma visão geral dos exercícios consulte
+[Visão Geral.md](Overview.md).
 
-If you are coming to this repository for some basic Git knowledge, we recommend going through the exercises in the following order.
-This is the order that Jan Krag at Praqma teaches Git and might change over time. There are more exercises than this, but these should take you through
-everything you need to be able to use Git effectively in your day to day life.
+Sinta-se à vontade para usar esses exercícios, é por isso que eles são públicos!
+
+## Trilha Sugerida
+
+Se você está acessando este repositório em busca de conhecimentos básicos sobre Git, é recomendado seguir os exercícios na ordem a seguir.
+Existem mais exercícios do que esses, mas estes devem abranger tudo o que é necessário para usar o Git de forma eficaz no dia a dia.
 
 - [Basic Commits](./basic-commits/README.md)
 - [Basic Staging](./basic-staging/README.md)
@@ -55,133 +58,126 @@ everything you need to be able to use Git effectively in your day to day life.
 - [Rebase using autosquash](./rebase-interactive-autosquash/README.md)
 - [Basic Stashing](./basic-stashing/README.md)
 
-See [Overview.md](Overview.md) for a more complete list and suggested order.
+Veja [Visão Geral.md](Overview.md) para a lista completa.
 
-## Contributing
+## Contribuição
 
-If you miss exercises or find errors in any of them, feel free to improve them and make a pull request.
+Se você sentir falta de exercícios ou encontrar erros em algum deles, sinta-se à vontade para aprimorá-los e fazer uma solicitação de pull.
 
-You can also make an issue so we notice an opportunity to improve!
+Você também pode criar uma issue para que possamos perceber uma oportunidade de melhoria!
 
-Thank you!
+Obrigado!
 
-### Celebrating success
+## Dicas Úteis
 
-On September 6th, 2023, we reached the milestone of having 1000 stars on GitHub. Thank you all for your support! This repository would not be where it is without the valuable contributions from the community.
-
-![1000 stars](/docs/1000stars-git-katas.png)
-
-## Cheatsheet
-
-A collection of useful commands to use throughout the exercises:
+Uma coleção de comandos úteis para serem utilizados ao longo dos exercícios:
 
 ```shell
-# Initializing an empty git repository.
-git init            # Initialize an empty git repository under current directory.
+# Inicializando um repositório Git vazio.
+git init            # Inicializa um repositório Git vazio no diretório atual.
 
-# Cloning a repository
-git clone https://github.com/praqma-training/git-katas.git      # Clone this repository to your current working directory
+# Clonando um repositório
+git clone https://github.com/praqma-training/git-katas.git      # Clona este repositório para o diretório de trabalho atual
 
-# Git (user and repo level) configurations
-git config --local user.name "Repo-level Username"          # For setting a local git repo level user name.
-git config --local user.email "Repo-level.Email@Example.com" # For setting a local git repo level user email.
-                                                            # --global -> User level git config stored in <user-home>/.gitconfig for e.g. ~/.gitconfig
-                                                            # --local -> repo level config stored in repo's main dir under .git/config
+# Configurações Git (nível de usuário e repositório)
+git config --local user.name "Nome de Usuário no Nível de Repositório"          # Define um nome de usuário no nível de repositório.
+git config --local user.email "Email-de-Usuario@Exemplo.com" # Define um email de usuário no nível de repositório.
+                                                            # --global -> Configuração git no nível de usuário armazenada em <user-home>/.gitconfig, por exemplo, ~/.gitconfig
+                                                            # --local -> Configuração no nível de repositório armazenada no diretório principal do repositório em .git/config
 
 
-# See local changes
-git status                  # Show the working tree status
-git diff                    # Show changes current working directory (not yet staged)
-git diff --cached           # Show changes currently staged for commit
+# Verificar alterações locais
+git status                  # Mostra o status da árvore de trabalho
+git diff                    # Mostra alterações no diretório de trabalho (ainda não preparadas)
+git diff --cached           # Mostra alterações atualmente preparadas para commit
 
-# Add files to staging (before a commit)
-git add myfile.txt          # Add myfile.txt to stage
-git add .                   # Add entire working directory to stage
+# Adicionar arquivos ao staging (antes de um commit)
+git add myfile.txt          # Adiciona myfile.txt ao staging
+git add .                   # Adiciona todo o diretório de trabalho ao staging
 
-# Make a commit
-git commit                              # Make a new commit with the changes in your staging area. This will open an editor for a commit message.
-git commit -m "I love documentation"    # Make a new commit with a commit message from the command line
-git commit -a                           # Make a new commit and automatically "add" changes from all known files
-git commit -am "I still do!"            # A combination of the above
-git commit --amend                      # Re-do the commit message of the previous commit (don't do this after pushing!)
-                                        #   We _never_ change "public history"
-git reset <file>                        # Unstage a staged file leaving in working directory without losing any changes.
-git reset --soft [commit_hash]          # resets the current branch to <commit>. Does not touch the staging area or the working tree at all.
-                                        # --hard mode would discard all changes.
+# Fazer um commit
+git commit                              # Cria um novo commit com as alterações na área de staging. Isso abrirá um editor para uma mensagem de commit.
+git commit -m "Eu amo documentação"    # Cria um novo commit com uma mensagem de commit a partir da linha de comando
+git commit -a                           # Cria um novo commit e "adiciona" automaticamente alterações de todos os arquivos conhecidos
+git commit -am "Eu ainda amo!"            # Uma combinação dos anteriores
+git commit --amend                      # Refaz a mensagem de commit do commit anterior (não faça isso depois de fazer push!)
+                                        #   Nunca alteramos a "história pública"
+git reset <file>                        # Desfaz o staging de um arquivo, mantendo-o no diretório de trabalho sem perder alterações.
+git reset --soft [commit_hash]          # Reseta o branch atual para <commit>. Não afeta a área de staging ou a árvore de trabalho.
+                                        # O modo --hard descartaria todas as alterações.
 
-# Configuring a different editor
-## Avoid Vim but stay in terminal:
+# Configurar um editor diferente
+## Evitar o Vim, mas permanecer no terminal:
 - `git config --global core.editor nano`
 
-## For Windows:
-- Use Notepad:
+## Para Windows:
+- Usar o Bloco de Notas:
 `git config --global core.editor notepad`
 
-- or for instance Notepad++:
+- ou, por exemplo, o Notepad++:
 `git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"`
 
 
-# See history
-git log             # Show commit logs
-git log --oneline   # Formats commits to a single line (shorthand for --pretty=oneline  --abbrev-commit )
-git log --graph     # Show a graph commits and branches
-git log --pretty=fuller     # To see commit log details with author and committer details, if any different.
-git log --follow <file>     # List the history of a file beyond renames
-git log branch2..branch1    # Show commits reachable from branch1 but not from branch2
+# Ver histórico
+git log             # Mostra os logs de commits
+git log --oneline   # Formata os commits em uma única linha (atalho para --pretty=oneline  --abbrev-commit )
+git log --graph     # Mostra um gráfico de commits e branches
+git log --pretty=fuller     # Para ver detalhes do log de commit com detalhes do autor e committer, se diferentes.
+git log --follow <file>     # Lista o histórico de um arquivo além de renomeações
+git log branch2..branch1    # Mostra commits alcançáveis a partir de branch1, mas não de branch2
 
-# Deferring
-git stash                               # Stash (store temporarily) changes in working branch and enable checkingout a new branch
-git stash list                          # List stored stashes.
-git stash apply <stash>                 # Apply given <stash>, or if none given the latest from stash list.
+# Armazenamento temporário
+git stash                               # Adia (armazena temporariamente) alterações no branch de trabalho e permite fazer checkout para um novo branch
+git stash list                          # Lista as stashes armazenadas.
+git stash apply <stash>                 # Aplica a <stash> dada, ou se nenhuma for dada, a última da lista de stash.
 
 
-# Working with Branches
-git branch my-branch       # Create a new branch called my-branch
-git switch my-branch     # Switch to a different branch to work on it
-git switch -c my-branch  # Create a new branch called my-branch AND switch to it
-git branch -d my-branch    # Delete branch my-branch that has been merged with master
-git branch -D my-branch    # Forcefully delete a branch my-branch that hasn't been merged to master
+# Trabalhando com Branches
+git branch my-branch       # Cria um novo branch chamado my-branch
+git switch my-branch     # Muda para um branch diferente para trabalhar nele
+git switch -c my-branch  # Cria um novo branch chamado my-branch E muda para ele
+git branch -d my-branch    # Deleta o branch my-branch que foi mesclado com o master
+git branch -D my-branch    # Deleta forçadamente um branch my-branch que não foi mesclado com o master
 
-# Merging
-git merge master         # Merge the master branch into your currently checked out branch.
-git rebase master        # Rebase current branch on top of master branch
+# Mesclando
+git merge master         # Mescla o branch master no branch atualmente verificado.
+git rebase master        # Rebase no branch atual sobre o branch master
 
-# Working with Remotes
-git remote              # Show your current remotes
-git remote -v           # Show your current remotes and their URLs
-git push                # Publish your commits to the upstream master of your currently checked out branch
-git push -u origin my-branch  # Push newly created branch to remote repo setting up to track remote branch from origin.
-                              # No need to specify remote branch name, for e.g., when doing a 'git pull' on that branch.
-git pull                # Pull changes from the remote to your currently checked out branch
+# Trabalhando com Remotos
+git remote              # Mostra seus remotos atuais
+git remote -v           # Mostra seus remotos atuais e suas URLs
+git push                # Publica seus commits no master upstream do branch atualmente verificado
+git push -u origin my-branch  # Envia o novo branch criado para o repositório remoto, configurando-o para rastrear o branch remoto de origin.
+                              # Não é necessário especificar o nome do branch remoto ao fazer 'git pull' nesse branch.
+git pull                # Puxa alterações do remoto para o branch atualmente verificado
 
-# Re/moving files under version control
-git rm <path/to/the/file>                 # remove file and stage the change to be committed.
-git mv <source/file> <destination/file>   # move/rename file and stage the change to be committed.
+# Adicionando/Removendo arquivos sob controle de versão
+git rm <path/to/the/file>                 # Remove um arquivo e coloca a alteração em staging para ser commitada.
+git mv <source/file> <destination/file>   # Move/renomeia um arquivo e coloca a alteração em staging para ser commitada.
 
-# Aliases - it's possible to make aliases of frequently used commands
-#   This is often done to make a command shorter, or to add default flags
+# Alias - é possível criar aliases para comandos frequentemente utilizados
+#   Isso é frequentemente feito para encurtar um comando ou adicionar flags padrão
 
-# Adding a shorthand "sw" for "switch"
+# Adicionando um atalho "sw" para "switch"
 git config --global alias.sw "switch"
-# Usage:
-git sw master     # Does a "git switch master"
+# Uso:
+git sw master     # Faz um "git switch master"
 
 ## Logging
-git log --graph --oneline --all # Show a nice graph of the previous commits
-## Adding an alias called "lol" (log oneline..) that shows the above
+git log --graph --oneline --all # Mostra um gráfico agradável dos commits anteriores
+## Adicionando um alias chamado "lol" (log oneline..) que mostra o acima
 git config --global alias.lol "log --graph --oneline --all"
-## Using the alias
-git lol     # Does a "git log --graph --oneline --all"
+## Usando o alias
+git lol     # Faz um "git log --graph --oneline --all"
 ```
 
-## Testing
+## Testando
 
-There is a very small test that you can run in powershell or bash.
-It is contained in the scripts `test.sh` and `test.ps1`.
+Há um teste muito simples que você pode executar no PowerShell ou Bash. Ele está contido nos scripts test.sh e test.ps1.
 
-### Cleanup
+### Limpeza
 
-You can remove testing artifacts, `exercise` directories, with the git clean command:
+Você pode remover artefatos de teste, diretórios exercise, com o comando git clean:
 
 ```sh
 git clean -ffdX
