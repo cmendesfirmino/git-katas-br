@@ -23,6 +23,15 @@ cd git-katas-br/basic-commits
 - Execute o script `setup.sh`
 - Há uma descrição do exercício no arquivo README.md
 
+
+### Recursos Valiosos
+
+🚀 **Importante configurar o Git antes de iniciar, siga esses passos aqui [Configuração Inicial Git](configure-git/README.md).**
+
+💡 **Entender alguns comandos de shell script podem te ajudar muito também, veja mais sobre eles aqui [Comandos Básicos de Shell](SHELL-BASICS.md).**
+
+
+
 ## Propósito do Git Katas
 
 Este repositório é uma coleção de exercícios de Git. Ele foi traduzido do repositório original [Git-Katas](https://github.com/eficode-academy/git-katas.git), que foi baseado no trabalho de  [Schauderhaft.de](http://blog.schauderhaft.de/gitkata/).
