@@ -11,7 +11,7 @@ Se ainda não fez a configuração inicial do Git, acesse esse conteúdo [Config
 
 ## A Tarefa
 
-1. Use `git status` para em qual branch vovê está.
+1. Use `git status` para em qual branch você está.
 2. Como `git log` está?
 3. Crie um arquivo 💡**Dica**: Lembra do comando `touch`?
 4. Como a saída do `git status` está agora?

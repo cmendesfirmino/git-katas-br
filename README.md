@@ -31,12 +31,13 @@ cd git-katas-br/basic-commits
 💡 **Entender alguns comandos de shell script podem te ajudar muito também, veja mais sobre eles aqui [Comandos Básicos de Shell](SHELL-BASICS.md).**
 
 
-
 ## Propósito do Git Katas
 
 Este repositório é uma coleção de exercícios de Git. Ele foi traduzido do repositório original [Git-Katas](https://github.com/eficode-academy/git-katas.git), que foi baseado no trabalho de  [Schauderhaft.de](http://blog.schauderhaft.de/gitkata/).
 
-Traduzi esse repositório para utilizar nas aulas que ministro. Portanto, servem para quem deseja praticar conhecimentos de git. Toda contribuição é válida e bem vinda.
+Traduzi e adaptei esse repositório para utilizar nas aulas que ministro. Portanto, servem para quem deseja praticar conhecimentos de git. Toda contribuição é válida e bem vinda. 
+
+Para verificar o status da tradução de cada item abaixo, consulte aqui [Status Tradução](Status%20Tradução.md)
 
 Os diretórios que iniciam com basic- são os iniciais, importante para quem tem pouco ou nenhum conhecimento. Os demais variam os níveis de dificuldade.
 
@@ -44,6 +45,8 @@ Para obter uma visão geral dos exercícios consulte
 [Visão Geral.md](Overview.md).
 
 Sinta-se à vontade para usar esses exercícios, é por isso que eles são públicos!
+
+
 
 ## Trilha Sugerida
 

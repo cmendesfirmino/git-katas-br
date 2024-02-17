@@ -1,5 +1,9 @@
 # Visão geral dos Exercícios do Git Kata
 
+## Status Tradução
+
+Para verificar o status da tradução de cada item abaixo, consulte aqui [Status Tradução](Status%20Tradução.md)
+
 ## Setup
 
 1. [configure-git](configure-git/README.md) - Se o git não estiver configurado, algumas passos básico para configurar
