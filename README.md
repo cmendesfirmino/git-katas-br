@@ -15,7 +15,7 @@ Abra a opção que deja abaixo
 - Execute o script `setup.sh`
 - Há uma descrição do exercício no arquivo README.md
 ```bash
-cd git-katas-br/basic-commits
+cd basic-commits
 . ./setup.sh
 ```
 
