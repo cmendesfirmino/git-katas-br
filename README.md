@@ -3,7 +3,7 @@
 ## Início Rápido
 
 ### Execute na Nuvem
-Abra a opção que deja abaixo
+Abra a opção que dejada abaixo, todas as opções podem ser rodadas de forma gratuíta.
 
 [![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://console.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/cmendesfirmino/git-katas-br.git)
 
