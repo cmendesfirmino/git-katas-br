@@ -1,50 +1,51 @@
-# Shell survival guide
+# Guia de Sobrevivência do Shell
 
-## Paths
-All paths start from `/`
+## Diretórios
+Todos diretórios iniciam com `/`
 
-Windows C: drive is thus `/c/`
+No Windows o drive C: é assim `/c/`
 
-Your user home folder is `/c/users/myname`
+A pasta inicial do seu usuário é `/c/users/myname`
 
-`~` works as a shortcut for user home folder, so:
+`~` serve como um atalho para sua pasta inicial, então:
 
-`~/projects` equals `/c/users/myname/projects`
+`~/projects` equivale à `/c/users/myname/projects`
 
-`.` is the current directory.
+`.` é o diretório atual.
 
-`..` is the parent directory.
+`..` é um diretório acima (pai).
 
-## Print working directory
+## Imprimir no Terminal o Diretório de Trabalho
 `pwd`
 
 Output:
 `/c/users/myname`
 
-## List content of folder
-`ls` (list files)
+## Lista de Conteúdos de Uma Pasta
+`ls` (lista arquivos)
 
-`ls -l` (list files in long form)
+`ls -l` (lista arquivos em forma longa)
 
-`ls -a` (list all including hidden files)
+`ls -a` (lista todos arquivos, incluindo os ocultos)
 
-## Change directory
-`cd <foldername>`
+## Alterar Diretório
+`cd <nome_arquivo>`
 
-`cd ..` (go up one folder)
+`cd ..` (vá para um diretório acima)
 
-`cd project` (go into project folder)
+`cd project` (vá para o diretório __project__)
 
-## Working with files
+## Trabalhando com Arquivos
 
-`cat file.txt` prints content of the file.txt to screen
+`cat file.txt` imprime no termial o conteúdo do arquivo *file.txt*
 
-`less file.txt` print content of file.txt page-wise. Exit with `q`.
+`less file.txt` imprime no terminal o conteúdo do arquivo *file.txt* com paginação. Para sair pressione `q`.
 
 `echo "Hello world" > file.txt`
-Writes the string "Hello World" to a file.txt, overwriting current content or creating the file if needed.
+Escreva a string __Hello World__ em um arquivo chamado *file.txt* no diretório atual, sobrescrevendo o conteúdo atual do arquivo se tiver, ou criando um novo arquivo.
 
-`echo "More stuff" >> file.txt` appends "More stuff" to the end of the file on a new line.
+`echo "More stuff" >> file.txt` adiciona **More stuff** no final do arquivo *file.txt* em uma nova linha.
 
 `touch file.txt`
-Create an empty file. If `file.txt` exists, only update its timestamp.
+Cria um arquivo vazio. Se `file.txt` existir, somente irá atualizar com a data e hora atual. 
+
