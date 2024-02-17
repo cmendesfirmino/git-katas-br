@@ -9,7 +9,7 @@ are for GNU/Linux platforms and Mac.
 
 ## Setup
 
-1. Run `source setup.sh` (or `.\setup.ps1` in PowerShell)
+1. Run `source setup.sh` (or `.\setup.ps1` no PowerShell)
 
 ## The task
 
@@ -76,7 +76,7 @@ are for GNU/Linux platforms and Mac.
 
    Now, just run the regular `git diff` to have Git compare the new smaller one with the original that is currently staged. It should be easy to see which attributes of the image were changed in the resize.
 
-## Useful commands
+## Comandos Úteis
 
 - `file file1.txt` (on GNU/Linux and Mac)
 - `git add`

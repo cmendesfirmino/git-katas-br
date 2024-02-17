@@ -8,7 +8,7 @@ You can use `git log -p` or `git show` to inspect the contents of commits and fi
 
 ## Setup:
 
-1. Run `source setup.sh` (or `.\setup.ps1` in PowerShell)
+1. Run `source setup.sh` (or `.\setup.ps1` no PowerShell)
 
 ## The task
 
@@ -19,7 +19,7 @@ You can use `git log -p` or `git show` to inspect the contents of commits and fi
 5. What happened? What does `git log -p` tell us?
 6. What happens if you run `git commit --amend` again?
 
-## Useful commands
+## Comandos Úteis
 
 - `git add`
 - `git log --oneline --graph`

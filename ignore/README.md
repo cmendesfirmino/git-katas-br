@@ -11,7 +11,7 @@ If you want to signal to Git that a file needs to be removed from git, but still
 
 ## Setup:
 
-1. Run `source setup.sh` (or `.\setup.ps1` in PowerShell)
+1. Run `source setup.sh` (or `.\setup.ps1` no PowerShell)
 
 ## The task
 
@@ -34,7 +34,7 @@ If you want to signal to Git that a file needs to be removed from git, but still
 ## Note
 If you are using `zsh` instead of `bash`(default on Mac and some Linux') then `echo "!file3.txt" >> .gitignore` will fail because of shell expansion. Either use an editor to modify the file or escape the `!` e.g. `echo "\!file3.txt" >> .gitignore`
 
-## Useful commands
+## Comandos Úteis
 - `git rm`
 - `git add`
 - `git commit`

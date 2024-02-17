@@ -2,7 +2,7 @@
 
 ## Setup
 
-1. Run `source setup.sh` (or `.\setup.ps1` in PowerShell)
+1. Run `source setup.sh` (or `.\setup.ps1` no PowerShell)
 
 ## The task
 
@@ -28,7 +28,7 @@ Hint: `git switch` will make you switch from one branch to another.
 17. What happened to your working directory? Can you see your `file2.txt`?
 18. Use `git diff mybranch master` to see the difference between the two branches.
 
-## Useful commands
+## Comandos Úteis
 
 - `git switch`
 - `git switch -c`

@@ -1,7 +1,7 @@
 # Git Kata: Tagging of the commits
 ## Setup:
 
-1. Run `source setup.sh` (or `.\setup.ps1` in PowerShell)
+1. Run `source setup.sh` (or `.\setup.ps1` no PowerShell)
 
 ## Motivation
 
@@ -28,7 +28,7 @@ of tags are already created.
 4. The exercise repository contains an annotated tag. What's the message?
 5. Maybe not all of the tags are needed. Delete some of them.
 
-## Useful commands
+## Comandos Úteis
 - `git tag`
 - `git tag -d <tag>`
 - `git tag --list <pattern>`

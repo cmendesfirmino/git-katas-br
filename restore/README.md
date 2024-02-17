@@ -5,7 +5,7 @@ This is where `git restore` comes into play.
 
 ## Setup
 
-1. Run `source setup.sh` (or `.\setup.ps1` in PowerShell)
+1. Run `source setup.sh` (or `.\setup.ps1` no PowerShell)
 
 ## The task
 
@@ -26,7 +26,7 @@ This is where `git restore` comes into play.
 10. Call `git status` one last time\
  What happened to `foo.txt`?
 
-## Useful commands
+## Comandos Úteis
 
 - `git status`
 - `git log --oneline`

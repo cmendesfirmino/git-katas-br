@@ -91,7 +91,7 @@ To ../component/.git
 * Why do we push to a new branch?
 * How would you do it if you not owner nor collaborator on the `component` repository on for example GitHub?
 
-## Useful commands
+## Comandos Úteis
 
 * `git log --graph --oneline --all`
 * `git subtree add --prefix component component master`

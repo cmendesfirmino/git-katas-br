@@ -2,7 +2,7 @@
 
 ## Setup:
 
-Run `source setup.sh` (or `.\setup.ps1` in PowerShell)
+Run `source setup.sh` (or `.\setup.ps1` no PowerShell)
 
 ## Tasks
 

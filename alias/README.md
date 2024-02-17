@@ -6,7 +6,7 @@ Aliases are stored in your git config and can thus be system, global or local. S
 
 ## Setup
 
-1. Run `source setup.sh` (or `.\setup.ps1` in PowerShell)
+1. Run `source setup.sh` (or `.\setup.ps1` no PowerShell)
 
 ## The task
 
@@ -27,7 +27,7 @@ Are there any difference in the output?
  Does it work?
 9. Remove your `git lol` alias by running `git config --global --unset alias.lol`
 
-## Useful commands
+## Comandos Úteis
 
 - `git config --list`
 - `git config --list --show-origin`

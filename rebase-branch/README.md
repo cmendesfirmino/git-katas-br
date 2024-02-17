@@ -2,7 +2,7 @@
 
 ## Setup
 
-1. Run `source setup.sh` (or `.\setup.ps1` in PowerShell)
+1. Run `source setup.sh` (or `.\setup.ps1` no PowerShell)
 
 ## The task
 
@@ -18,7 +18,7 @@ You again live in your own branch, this time we will be doing a bit of juggling 
 8. Merge uppercase into master
 9. What does the log look like now?
 
-## Useful commands
+## Comandos Úteis
 
 - `git switch <branch-name>`
 - `git rebase <branch-name>`

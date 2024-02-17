@@ -10,7 +10,7 @@ While you are at it I would really like the ugly `\n` characters inside `file.tx
 
 ## Setup
 
-1. Run `source setup.sh` (or `.\setup.ps1` in PowerShell)
+1. Run `source setup.sh` (or `.\setup.ps1` no PowerShell)
 
 ## The task
 
@@ -18,7 +18,7 @@ While you are at it I would really like the ugly `\n` characters inside `file.tx
 2. How does `git log` look now?
 3. Clean up the `\n` characters inside `file.txt` without adding to the commit history.
 
-## Useful commands
+## Comandos Úteis
 
 - `git rebase -i <ref>`
 - `git add`

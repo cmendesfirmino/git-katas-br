@@ -45,7 +45,7 @@ git lfs install
 
 ## Setup
 
-1. Run `source setup.sh` (or `.\setup.ps1` in PowerShell)
+1. Run `source setup.sh` (or `.\setup.ps1` no PowerShell)
 
 When you have run the script, you should have two folders:
 
@@ -111,7 +111,7 @@ Let us now pretend to be a second developer.
 1. Let's have a look at what happened on the remote (i.e. the `remote` folder). Note that this is a "bare" repo, so it will look quite different than a normal Git repo folder (e.g. there is no workspace with files, so we only have the "internals" that are normally stored in `.git`.) Go to the `git-katas/lfs/remote` folder.
 2. Notice that this folder, apart from usual `git/` content also now has a `lfs` subfolder. Under this folder we find the actual file contents of the large files that were "translated" and pushed by the LFS extension.
 
-## Useful commands
+## Comandos Úteis
 
 - Initialize Git LFS:
 

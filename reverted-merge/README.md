@@ -16,7 +16,7 @@ production, you decide to revert the merge commit.
 
 ## Setup
 
-1. Run `source setup.sh` (or `.\setup.ps1` in PowerShell)
+1. Run `source setup.sh` (or `.\setup.ps1` no PowerShell)
 
 ## The task
 
@@ -43,7 +43,7 @@ features should be included in `mymodule.txt`.
 4. Undo the merge with a reset --hard
 5. Revert the revert and try the merge again. This time it works.
 
-## Useful commands
+## Comandos Úteis
 
 * `git revert -m 1 <merge-sha1>`
 * `git log --oneline --graph --all`

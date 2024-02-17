@@ -10,7 +10,7 @@ There is a way to easily fix it with advanced options for `git commit` and `git 
 
 ## Setup:
 
-1. Run `. setup.sh` (or `.\setup.ps1` in PowerShell)
+1. Run `. setup.sh` (or `.\setup.ps1` no PowerShell)
 
 ## Task
 
@@ -20,7 +20,7 @@ There is a way to easily fix it with advanced options for `git commit` and `git 
 4. Use `git rebase --autosquash --interactive v0.0` to view the rebase recipe automatically generated.
 5. Use `git log` to view your new beautiful history.
 
-### useful commands
+### Comandos Úteis
 
 - `ls -l`                           # list files
 - `tail -n +1 *`                    # show content of all files

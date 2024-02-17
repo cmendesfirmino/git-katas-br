@@ -6,7 +6,7 @@ You should fix this such that our `git log` looks great!
 
 ## Setup
 
-1. Run `source setup.sh` (or `.\setup.ps1` in PowerShell)
+1. Run `source setup.sh` (or `.\setup.ps1` no PowerShell)
 
 ## Task
 
@@ -17,7 +17,7 @@ Reorder the history such that it actually makes sense - add the files in the ord
 3. Use `git rebase -i <after-this-commit>` to reorder the commits. There are commments in the file you edit that explain the commands available.
 4. Use `git log --oneline --graph` to view the result
 
-### useful commands
+### Comandos Úteis
 
 - `git rebase -i <after-this-commit>`
 - `git log --oneline --graph`

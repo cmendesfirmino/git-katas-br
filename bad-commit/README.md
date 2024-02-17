@@ -7,7 +7,7 @@ Find the commit and revert it using bisect.
 
 ## Setup:
 
-1. Run `source setup.sh` (or `.\setup.ps1` in PowerShell)
+1. Run `source setup.sh` (or `.\setup.ps1` no PowerShell)
 
 ## The task
 
@@ -25,7 +25,7 @@ For this exercise, the version is bad if `badfile` exists.
 
 If you have a script that can tell if the current source code is good or bad, you can bisect by issuing `git bisect run`.
 
-## Useful commands
+## Comandos Úteis
 
 - `git bisect start`
 - `git bisect bad`
@@ -35,5 +35,5 @@ If you have a script that can tell if the current source code is good or bad, yo
 - `git diff <commit-ish-1> <commit-ish-2>`
 - `git revert <commit-ish>`
 - `git bisect run <cmd>`
-- `test ! -f badfile` (or `gci . badfile` in PowerShell) to test the existence of a file
+- `test ! -f badfile` (or `gci . badfile` no PowerShell) to test the existence of a file
 - `test ! -f badfile;echo $?` to output the result of the test to the console

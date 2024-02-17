@@ -2,7 +2,7 @@
 
 ## Setup
 
-1. Run `source setup.sh` (or `.\setup.ps1` in PowerShell)
+1. Run `source setup.sh` (or `.\setup.ps1` no PowerShell)
 
 ## The task
 
@@ -25,7 +25,7 @@ You again live in your own branch, this time we will be doing a bit of juggling 
 12. Use `cat` to see the contents of the greetings
 13. Delete the uppercase branch
 
-## Useful commands
+## Comandos Úteis
 
 - `git branch`
 - `git branch <branch-name>`

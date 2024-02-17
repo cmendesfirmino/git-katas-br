@@ -2,7 +2,7 @@
 
 ## Setup
 
-1. Run `source setup.sh` (or `.\setup.ps1` in PowerShell)
+1. Run `source setup.sh` (or `.\setup.ps1` no PowerShell)
 
 ## Task
 
@@ -18,4 +18,4 @@ Our test suite is contained in `test.sh`. We can use `git rebase --exec` to run 
     - `exit 1` to `exit 0`
 1. Stage `test.sh` and use `git commit --amend` to fix the broken commit
 1. Run `git rebase --continue` to execute the test suite on the remaining commits
-1. You may run `verify.sh` (or `verify.ps1` in PowerShell) to verify your solution
+1. You may run `verify.sh` (or `verify.ps1` no PowerShell) to verify your solution

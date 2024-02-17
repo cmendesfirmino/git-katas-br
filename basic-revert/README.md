@@ -1,7 +1,7 @@
 # Git Kata: Basic revert
 ## Setup:
 
-1. Run `source setup.sh` (or `.\setup.ps1` in PowerShell)
+1. Run `source setup.sh` (or `.\setup.ps1` no PowerShell)
 
 ## The task
 
@@ -22,7 +22,7 @@ In this task a few changes snuck in, that we'd like to get out. Our history is p
 13. Use `git show` with the sha of the commit you reverted to see that the credentials file is stilll in the history
 14. As you have now reverted the credentials file, so it is removed from your working directory, is it also removed from git?
 
-## Useful commands
+## Comandos Úteis
 - `git revert <ref>`
 - `git log --oneline`
 - `git show <ref>`

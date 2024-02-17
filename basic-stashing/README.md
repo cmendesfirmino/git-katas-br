@@ -2,7 +2,7 @@
 
 ## Setup:
 
-1. Run `source setup.sh` (or `.\setup.ps1` in PowerShell)
+1. Run `source setup.sh` (or `.\setup.ps1` no PowerShell)
 
 ## The task
 
@@ -35,7 +35,7 @@ Suddenly, you're made aware that a bug has made it to production. You'll stash y
 
 
 
-## Useful commands
+## Comandos Úteis
 
 - `git status`
 - `git status -s`

@@ -2,7 +2,7 @@
 
 ## Setup:
 
-1. Run `source setup.sh` (or `.\setup.ps1` in PowerShell)
+1. Run `source setup.sh` (or `.\setup.ps1` no PowerShell)
 
 
 ## The task
@@ -20,7 +20,7 @@ You know that you need to rebase all the way from the the [root commit](https://
 
 Thankfully you just started the project so you can still [force push](https://git-scm.com/docs/git-push#Documentation/git-push.txt--f) without fear of messing up ([The Perils of Rebasing](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)) someone elses local repo.
 
-## Useful commands
+## Comandos Úteis
 - `git config --local user.name "my name"`
 - `git config --local user.email "myemail@home.com"`
 - `git rebase -i --root`

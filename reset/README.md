@@ -5,7 +5,7 @@ We use reset to unstage change, but we can also do many more different things.
 
 ## Setup
 
-1. Run `source setup.sh` (or `.\setup.ps1` in PowerShell)
+1. Run `source setup.sh` (or `.\setup.ps1` no PowerShell)
 
 ## Task
 
@@ -20,7 +20,7 @@ We use reset to unstage change, but we can also do many more different things.
 9. Now try to use `git revert HEAD~1`
 10. What happens to your working directory, your log and your stage?
 
-## Useful commands
+## Comandos Úteis
 
 - `git log --oneline`
 - `git commit --amend`

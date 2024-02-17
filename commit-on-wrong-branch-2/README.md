@@ -12,14 +12,14 @@ the `master` branch instead of the feature branch.
 
 ## Setup:
 
-1. Run `source setup.sh` (or `.\setup.ps1` in PowerShell)
+1. Run `source setup.sh` (or `.\setup.ps1` no PowerShell)
 
 ## The task
 
 1. Move the faulty commit from the `master` branch to the `new-feature` branch.
 2. How would you also bring the bugfix to your feature branch?
 
-## Useful Commands
+## Comandos Úteis
 
 * `git reset HEAD~1` to move the current branch one step back. This has the consequence of _removing_ the newest commit from a branch
 * `git stash` to temporarily save your changes so that you can switch branches

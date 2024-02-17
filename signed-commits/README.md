@@ -82,7 +82,7 @@ Git is by default using a bundled version of GPG. If you have installed GPG4win,
 stored in a different location than the bundled GPG expects.
 To remedy this, you have to tell Git which GPG to use.
 
-In Powershell:
+no PowerShell:
 
 ``` powershell
 git config --global gpg.program $(Resolve-Path (Get-Command gpg | Select-Object -Expand Source) | Select-Object -Expand Path)

@@ -9,7 +9,7 @@ Git can cherry pick either a single commit or a range of commits from a branch.
 
 ## Setup:
 
-1. Run `source setup.sh` (or `.\setup.ps1` in PowerShell)
+1. Run `source setup.sh` (or `.\setup.ps1` no PowerShell)
 
 ## The task
 
@@ -56,7 +56,7 @@ would not include the commit ABCD, instead you should add a caret symbol to the 
 Reference: https://www.tollmanz.com/git-cherry-pick-range/
 Reference: https://git-scm.com/docs/git-cherry-pick
 
-## Useful commands
+## Comandos Úteis
 - `git cherry-pick <ref>`
 - `git reset --hard <ref>`
 - `git log --oneline --graph --all`

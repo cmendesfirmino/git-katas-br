@@ -2,7 +2,7 @@
 
 ## Setup
 
-1. Run `source setup.sh` (or `.\setup.ps1` in PowerShell)
+1. Run `source setup.sh` (or `.\setup.ps1` no PowerShell)
 
 ## Kata 5: Commit on wrong branch
 
@@ -55,7 +55,7 @@ Note: since the `B` in the current and in the target structure don't have the sa
 6. Push `master`. You can't do this in the training exercise.
 7. You can merge the `changes-including-B` branch to `master` and delete `changes-including-B` or just switch to `changes-including-B` and work there.
 
-## Useful commands
+## Comandos Úteis
 
 - `git log --oneline --graph --all`
 - `git switch <branch-name>`

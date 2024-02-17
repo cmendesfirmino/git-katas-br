@@ -4,7 +4,7 @@ In this repository we had added the holy grail in `holygrail.txt`. Unfortunately
 
 ## Setup
 
-1. Run `source setup.sh` (or `.\setup.ps1` in PowerShell)
+1. Run `source setup.sh` (or `.\setup.ps1` no PowerShell)
 
 ## The task
 

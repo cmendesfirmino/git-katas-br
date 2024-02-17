@@ -2,7 +2,7 @@
 
 ## Setup
 
-1. Run `source setup.sh` (or `.\setup.ps1` in PowerShell)
+1. Run `source setup.sh` (or `.\setup.ps1` no PowerShell)
 
 ## The task
 
@@ -20,7 +20,7 @@ You again live in your own branch, this time we will be doing a bit of juggling 
 10. Merge the greeting branch into master
 11. What is the output of `git log --oneline --graph --all` now? Observe the extra merge commit created with the message "Merge branch 'greeting'".
 
-## Useful commands
+## Comandos Úteis
 
 - `git branch`
 - `git branch <branch-name>`

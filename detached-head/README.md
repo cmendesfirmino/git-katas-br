@@ -4,7 +4,7 @@ When a user ends up in a "detached head" state, this is a scary situation, but a
 
 ## Setup:
 
-1. Run `source setup.sh` (or `.\setup.ps1` in PowerShell)
+1. Run `source setup.sh` (or `.\setup.ps1` no PowerShell)
 
 ## The task
 
@@ -17,7 +17,7 @@ We want to have a branch called `the-beginning` that is made from the first comm
 
 3. Can you do this by first causing a detached head?
 
-## Useful commands
+## Comandos Úteis
 
 - `git status`
 - `git log --oneline --graph --all`

@@ -2,7 +2,7 @@
 
 ## Setup:
 
-1. Run `source setup.sh` (or `.\setup.ps1` in PowerShell)
+1. Run `source setup.sh` (or `.\setup.ps1` no PowerShell)
 
 ## The task
 You are working on a project that involves generated files.  Say you are compiling C files into object files. Before checking out a new branch you want to start clean
@@ -15,7 +15,7 @@ You are working on a project that involves generated files.  Say you are compili
 6. Run the clean command with the ` -n -d ` option.
 7. Looks good! clean the repo ` -f -d `
 
-## Useful commands
+## Comandos Úteis
 - `git clean -n`
 - `git add`
 - `git clean -n -d`
