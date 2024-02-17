@@ -3,6 +3,7 @@
 ## Início Rápido
 
 ### Execute na Nuvem
+Abra a opção que deja abaixo
 
 [![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://console.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/cmendesfirmino/git-katas-br.git)
 
@@ -10,19 +11,29 @@
 
 [![Open in Gitpod](https://github.com/codespaces/badge.svg)](https://github.com/cmendesfirmino/git-katas-br/codespaces)
 
+- Vá até o diretório do exercício que deseja resolver
+- Execute o script `setup.sh`
+- Há uma descrição do exercício no arquivo README.md
+```bash
+cd git-katas-br/basic-commits
+. ./setup.sh
+```
 
 ### Execute Localmente
+
+Com o git instalado em sua máquina local, se não tiver instalado siga esses passos [Configuração Git](configure-git/README.md). 
+
+Em seguida execute os passos abaixo.
+- Clone este repositório
+- Vá até o diretório do exercício que deseja resolver
+- Execute o script `setup.sh`
+- Há uma descrição do exercício no arquivo README.md
 
 ```bash
 git clone https://github.com/cmendesfirmino/git-katas-br.git
 cd git-katas-br/basic-commits
 . ./setup.sh
 ```
-- Clone este repositório
-- Vá até o diretório do exercício que deseja resolver
-- Execute o script `setup.sh`
-- Há uma descrição do exercício no arquivo README.md
-
 
 ### Recursos Valiosos
 
@@ -45,8 +56,6 @@ Para obter uma visão geral dos exercícios consulte
 [Visão Geral.md](Overview.md).
 
 Sinta-se à vontade para usar esses exercícios, é por isso que eles são públicos!
-
-
 
 ## Trilha Sugerida
 
