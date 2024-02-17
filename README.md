@@ -2,7 +2,7 @@
 
 ## Início Rápido
 
-### Rode na Nuvem
+### Execute na Nuvem
 
 [![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://console.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/cmendesfirmino/git-katas-br.git)
 
@@ -11,7 +11,7 @@
 [![Open in Gitpod](https://github.com/codespaces/badge.svg)](https://github.com/cmendesfirmino/git-katas-br/codespaces)
 
 
-### Rode Localmente
+### Execute Localmente
 
 ```bash
 git clone https://github.com/cmendesfirmino/git-katas-br.git
