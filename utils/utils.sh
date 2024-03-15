@@ -1,6 +1,6 @@
 #!/bin/bash
 # This is the entry point for shell utilities in git katas.
-# The purpose of this file is to enable setup scripts in each of the katas to have a common set of utilities 
+# The purpose of this file is to enable setup scripts in each of the katas to have a common set of utilities
 # spread over multiple files in the utils folder.
 
 # First, guard against Error 40 if user does not invoke using source:
@@ -9,8 +9,8 @@
 #  exit 1
 #fi
 
-export DEFAULT_BRANCH=master
-# Using this weird seemingly arbitrary path to avoid path issues. 
+export DEFAULT_BRANCH=main
+# Using this weird seemingly arbitrary path to avoid path issues.
 # Please let me know the _right_ way to do this
 source ../utils/make-exercise-repo.sh
 source ../utils/make-fake-remote.sh
